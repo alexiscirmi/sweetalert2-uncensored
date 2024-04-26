@@ -1,4 +1,4 @@
-declare module 'sweetalert2' {
+declare module 'sweetalert2-uncensored' {
   /**
    * A namespace inside the default function, containing utility function for controlling the currently-displayed popup.
    *
@@ -1225,15 +1225,15 @@ declare module 'sweetalert2' {
 }
 
 declare module 'sweetalert2/*/sweetalert2.js' {
-  export * from 'sweetalert2'
+  export * from 'sweetalert2-uncensored'
   // "export *" does not matches the default export, so do it explicitly.
-  export { default } from 'sweetalert2' // eslint-disable-line
+  export { default } from 'sweetalert2-uncensored' // eslint-disable-line
 }
 
 declare module 'sweetalert2/*/sweetalert2.all.js' {
-  export * from 'sweetalert2'
+  export * from 'sweetalert2-uncensored'
   // "export *" does not matches the default export, so do it explicitly.
-  export { default } from 'sweetalert2' // eslint-disable-line
+  export { default } from 'sweetalert2-uncensored' // eslint-disable-line
 }
 
 /**
